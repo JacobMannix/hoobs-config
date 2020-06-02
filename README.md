@@ -39,6 +39,9 @@ You will need the API Key from Rachio. This is pretty straight forward if you fo
 
 ### Things to Note
 
+#### Server
+Hoobs is being run on an Ubuntu Linux Server.
+
 #### Server Port
 I am using "7070" as port when "8080" is the default. I am using another application on my server that runs on 8080 so I decided to change Hoobs so they do not interfere.
 
