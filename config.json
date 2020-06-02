@@ -1,0 +1,121 @@
+{
+    "server": {
+        "port": 7070,
+        "origin": "*",
+        "autostart": 0,
+        "home_setup_id": "!SETUPID!",
+        "polling_seconds": 5
+    },
+    "client": {
+        "default_route": "status",
+        "inactive_logoff": 30,
+        "theme": "hoobs-light",
+        "locale": "en",
+        "temp_units": "fahrenheit",
+        "country_code": "US",
+        "postal_code": "!USZIPCODE!"
+    },
+    "bridge": {
+        "name": "HOOBS",
+        "port": "!port!",
+        "pin": "!HOMEKITPIN",
+        "username": "!UNIQUEID!"
+    },
+    "description": "",
+    "ports": {},
+    "plugins": [
+        "homebridge-tuya-web",
+        "homebridge-google-nest",
+        "homebridge-lgwebos-tv",
+        "homebridge-rachio-platform"
+    ],
+    "accessories": [],
+    "platforms": [
+        {
+            "platform": "TuyaWebPlatform",
+            "name": "TuyaWebPlatform",
+            "options": {
+                "username": "!USERNAME!",
+                "password": "!PASSWORD!",
+                "countryCode": "1",
+                "platform": "smart_life",
+                "pollingInterval": 180
+            },
+            "plugin_map": {
+                "plugin_name": "homebridge-tuya-web"
+            }
+        },
+        {
+            "platform": "Nest",
+            "plugin_map": {
+                "plugin_name": "homebridge-google-nest"
+            },
+            "name": "Nest",
+            "googleAuth": {
+                "issueToken": "!ISSUETOKEN!",
+                "cookies": "!COOKIES!",
+                "apiKey": "!APIKEY!"
+            }
+        },
+        {
+            "platform": "LgWebOsTv",
+            "plugin_map": {
+                "plugin_name": "homebridge-lgwebos-tv"
+            },
+            "devices": [
+                {
+                    "name": "LG TV",
+                    "host": "!LOCALIP!",
+                    "mac": "!MACADDRESS!",
+                    "switchInfoMenu": false,
+                    "inputs": [
+                        {
+                            "name": "Live TV",
+                            "reference": "com.webos.app.livetv"
+                        },
+                        {
+                            "name": "HDMI 1",
+                            "reference": "com.webos.app.hdmi1"
+                        },
+                        {
+                            "name": "HDMI 2",
+                            "reference": "com.webos.app.hdmi2"
+                        },
+                        {
+                            "name": "HDMI 3",
+                            "reference": "com.webos.app.hdmi3"
+                        },
+                        {
+                            "name": "HDMI 4",
+                            "reference": "com.webos.app.hdmi4"
+                        },
+                        {
+                            "name": "Netflix",
+                            "reference": "netflix"
+                        },
+                        {
+                            "name": "YouTube",
+                            "reference": "youtube.leanback.v4"
+                        },
+                        {
+                            "name": "LG Store",
+                            "reference": "com.webos.app.discovery"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "platform": "Rachio-Platform",
+            "name": "Rachio Controller",
+            "api_key": "!APIKEY!",
+            "internal_webhook_port": "!WEBPORT",
+            "external_webhook_address": "!EXTERNALWEBADDRESS!",
+            "plugin_map": {
+                "plugin_name": "homebridge-rachio-platform"
+            }
+        }
+    ],
+    "package_manager": "npm",
+    "system": "hoobs"
+}
