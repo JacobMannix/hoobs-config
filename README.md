@@ -15,24 +15,25 @@ My Configuration for using Hoobs for Homebridge. Including Plugins I use with co
 
 ---
 ### Tuya
+[homebridge-tuya-app](https://github.com/basdelfos/homebridge-tuya-web#readme)
 
 There are a few apps that are used in the Tuya platoform, I have an account with SmartLife so I chose to use this along with its Username and Password for setup.
 
 ---
 ### Google Nest
+[homebridge-google-nest](https://github.com/ryanleesmith/homebridge-google-nest)
 
 You will need to get some google authentication to use the API. If you login to your nest account in chrome and do some tricks you can find your "issuetokens", "cookies" and "apikey". Both the issuetokens and cookies are extremely long strings.
 
-[homebridge google nest](https://github.com/ryanleesmith/homebridge-google-nest)
-
 ---
 ### LG WebOS TV
+[homebridge-lgwebos-tv](https://github.com/grzegorz914/homebridge-lgwebos-tv#readme)
 
 To configure this I went to the network setttings on my TV to find the local IP Address and Mac Address to configure.
 
 ---
 ### Rachio Platform
-
+[homebridge-rachio-platform](https://github.com/kcharwood/homebridge-rachio-platform#readme)
 You will need the API Key from Rachio. This is pretty straight forward if you follow the documentation. You just have to go to your settings on the Rachio web app.
 
 ---
