@@ -2,8 +2,8 @@
 
 My Configuration for using Hoobs for Homebridge. Including Plugins I use with confidential info replaced. The replaced strings look like this: !APIKEY!
 
-### [Hoobs](https://hoobs.org)
-### [Homebridge](https://homebridge.io)
+- [Hoobs](https://hoobs.org)
+- [Homebridge](https://homebridge.io)
 
 ---
 
@@ -11,7 +11,7 @@ My Configuration for using Hoobs for Homebridge. Including Plugins I use with co
 - [Tuya App](#Tuya)
 - [Google Nest](#Google-Nest)
 - [LG WebOS TV](#LG-WebOS-TV)
-- [Rachio Platform](Rachio-Platform)
+- [Rachio Platform](#Rachio-Platform)
 
 ---
 ### Tuya
@@ -30,6 +30,7 @@ You will need to get some google authentication to use the API. If you login to 
 
 To configure this I went to the network setttings on my TV to find the local IP Address and Mac Address to configure.
 
+---
 ### Rachio Platform
 
 You will need the API Key from Rachio. This is pretty straight forward if you follow the documentation. You just have to go to your settings on the Rachio web app.
