@@ -2,17 +2,16 @@
 
 My Configuration for using Hoobs for Homebridge. Including Plugins I use with confidential info replaced. The replaced strings look like this: !APIKEY!
 
-[Hoobs](https://hoobs.org)
-[Homebridge](https://homebridge.io)
+### [Hoobs](https://hoobs.org)
+### [Homebridge](https://homebridge.io)
 
 ---
 
-Plugins
-- [homebridge-tuya-web](#Tuya)
-- [homebridge-google-nest](#Google-Nest)
-- homebridge-lgwebos-tv
-- homebridge-rachio-platform
-
+### Plugins
+- [Tuya App](#Tuya)
+- [Google Nest](#Google-Nest)
+- [LG WebOS TV](#LG-WebOS-TV)
+- [Rachio Platform](Rachio-Platform)
 
 ---
 ### Tuya
