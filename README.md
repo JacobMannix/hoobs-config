@@ -34,6 +34,7 @@ To configure this I went to the network setttings on my TV to find the local IP 
 ---
 ### Rachio Platform
 [homebridge-rachio-platform](https://github.com/kcharwood/homebridge-rachio-platform#readme)
+
 You will need the API Key from Rachio. This is pretty straight forward if you follow the documentation. You just have to go to your settings on the Rachio web app.
 
 ---
