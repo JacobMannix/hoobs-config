@@ -1,9 +1,11 @@
 # Hoobs Configuration
 
 My Configuration for using Hoobs for Homebridge. Including Plugins I use with confidential info replaced. The replaced strings look like this: !APIKEY!
-[here](Hoobs Configuration.PNG)
+
 - [Hoobs](https://hoobs.org)
 - [Homebridge](https://homebridge.io)
+
+![Drag Racing](Hoobs Configuration.png)
 
 ---
 
