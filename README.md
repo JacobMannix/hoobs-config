@@ -5,7 +5,7 @@ My Configuration for using Hoobs for Homebridge. Including Plugins I use with co
 - [Hoobs](https://hoobs.org)
 - [Homebridge](https://homebridge.io)
 
-![Drag Racing](Hoobs Configuration.png)
+![Drag Racing](Hoobs Dashboard.png)
 
 ---
 
