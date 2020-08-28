@@ -19,7 +19,7 @@ My Configuration for using Hoobs for Homebridge. Including Plugins I use with co
 ### Tuya
 [homebridge-tuya-app](https://github.com/basdelfos/homebridge-tuya-web#readme)
 
-There are a few apps that are used in the Tuya platoform, I have an account with SmartLife so I chose to use this along with its Username and Password for setup.
+There are a few apps that are used in the Tuya platform, I have an account with SmartLife so I chose to use this along with its Username and Password for setup.
 
 ---
 ### Google Nest
