@@ -1,4 +1,4 @@
-# Hoobs Configuration
+# Hoobs Smart Home Configuration
 
 My Configuration for using Hoobs for Homebridge. Including Plugins I use with confidential info replaced. The replaced strings look like this: !APIKEY!
 
