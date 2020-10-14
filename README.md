@@ -54,7 +54,3 @@ I am using "7070" as port when "8080" is the default. I am using another applica
 
 #### Polling Intervals
 I set my polling interval (the amount of time between checking to see if something is on or off) to a couple of minutes because I plan to only use homekit to turn the devices on and off. If I was going to continue to use the native apps then I would want to set this somewhere between 10-30sec.
-
----
-
-Licensed under the [MIT License](LICENSE).
