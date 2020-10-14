@@ -1,6 +1,9 @@
 # Hoobs Smart Home Configuration
+[![GitHub](https://img.shields.io/github/license/jacobmannix/hoobs-config?color=blue)](LICENSE)
+[![GitHub top language](https://img.shields.io/github/languages/top/jacobmannix/hoobs-config)](https://github.com/JacobMannix/hoobs-config)
+[![GitHub last commit](https://img.shields.io/github/last-commit/jacobmannix/hoobs-config)](https://github.com/JacobMannix/hoobs-config/commits/master)
 
-My Configuration for using Hoobs for Homebridge. Including Plugins I use with confidential info replaced. The replaced strings look like this: !APIKEY!
+> <b> My Configuration for using Hoobs for Homebridge. Including Plugins I use with confidential info replaced. The replaced strings look like this: !APIKEY! </b>
 
 - [Hoobs](https://hoobs.org)
 - [Homebridge](https://homebridge.io)
